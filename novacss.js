@@ -9,19 +9,17 @@
     const value = match[2];
 
     // mapping
-    if (prop === 'text-') {
-      el.style.fontSize = value;
-    } else if (prop === 'textcolor-') {
-      el.style.color = value;
-    } else if (prop === 'bg-') {
-      el.style.background = value;
-      // if hex or color name, keep as is
-    } else if (prop === 'bgimg-') {
-      // value should be like url('https://...')
-      el.style.backgroundImage = value;
-      el.style.backgroundSize = 'cover';
-      el.style.backgroundPosition = 'center';
-    } else if (prop === 'm-') {
+  if (prop === 'text-') {
+  el.style.fontSize = value;
+} else if (prop === 'text-color-') {
+  el.style.color = value;
+} else if (prop === 'bg-') {
+  el.style.background = value;
+} else if (prop === 'bgimg-') {
+  el.style.backgroundImage = value;
+  el.style.backgroundSize = 'cover';
+  el.style.backgroundPosition = 'center';
+} else if (prop === 'm-') {
       el.style.margin = value;
     } else if (prop === 'p-') {
       el.style.padding = value;
