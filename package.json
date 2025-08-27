@@ -1,0 +1,21 @@
+{
+  "name": "nova-css",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "mkdir -p dist && cp src/novacss.css dist/novacss.css",
+    "build:min": "postcss src/novacss.css -o dist/novacss.min.css",
+    "prepare": "npm run build"
+  },
+  "keywords": [],
+  "author": "SHRI",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "autoprefixer": "^10.4.21",
+    "cssnano": "^7.1.1",
+    "postcss": "^8.5.6",
+    "postcss-cli": "^11.0.1"
+  }
+}

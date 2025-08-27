@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>NovaCSS Demo</title>
+  <link rel="stylesheet" href="dist/novacss.css">
+</head>
+<body class="p-4">
+
+  <h1 class="text-4xl font-bold text-primary mb-4">NovaCSS v2 Demo</h1>
+
+  <p class="text-base text-secondary mb-2">Predefined utilities + arbitrary values example:</p>
+
+  <p class="text-[20px] textcolor-[#e11d48] mb-4">This text uses arbitrary size & color</p>
+
+  <div class="bg-[#00ffcc] p-[20px] m-[10px] w-[200px] h-[100px]">Arbitrary bg + box</div>
+
+  <div class="grid grid-cols-3 gap-4 mt-4">
+    <div class="bg-primary p-4 text-light">1</div>
+    <div class="bg-secondary p-4 text-light">2</div>
+    <div class="bg-dark p-4 text-light">3</div>
+  </div>
+
+  <h2 class="text-xl mt-4">Multi-column Example</h2>
+  <div class="columns-3 col-gap-4 bg-light p-4">
+    <p>Column content A</p>
+    <p>Column content B</p>
+    <p>Column content C</p>
+    <p>Column content D</p>
+    <p>Column content E</p>
+  </div>
+
+  <button class="btn btn-primary mt-4">Primary</button>
+  <button class="btn btn-outline btn-sm mt-4">Outline small</button>
+
+  <script src="novacss.js"></script>
+</body>
+</html>
