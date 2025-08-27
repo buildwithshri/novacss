@@ -68,8 +68,8 @@ Don’t want npm? Use the CDN link:
 ### Typography
 
 ```html
-<h1 class="text-4xl font-bold">Heading 1</h1>
-<p class="text-base text-gray">This is a paragraph using Nova CSS.</p>
+<h1 class="text-4xl font-bold text-color-primary">Heading 1</h1>
+<p class="text-base text-color-secondary">This is a paragraph using Nova CSS.</p>
 ```
 
 ### Buttons
@@ -78,22 +78,23 @@ Don’t want npm? Use the CDN link:
 <button class="btn btn-primary">Primary</button>
 <button class="btn btn-secondary">Secondary</button>
 <button class="btn btn-danger">Danger</button>
+<button class="btn btn-outline text-color-primary">Outline</button>
 ```
 
 ### Grid
 
 ```html
 <div class="grid grid-cols-3 gap-4">
-  <div class="p-2 bg-light">1</div>
-  <div class="p-2 bg-light">2</div>
-  <div class="p-2 bg-light">3</div>
+  <div class="p-2 bg-light text-color-dark">1</div>
+  <div class="p-2 bg-light text-color-dark">2</div>
+  <div class="p-2 bg-light text-color-dark">3</div>
 </div>
 ```
 
 ### Responsive
 
 ```html
-<div class="p-2 md:p-4 lg:p-8 bg-info text-white">
+<div class="p-2 md:p-4 lg:p-8 bg-color-success text-color-light">
   Responsive Padding Example
 </div>
 ```
@@ -101,10 +102,10 @@ Don’t want npm? Use the CDN link:
 ### Column Count
 
 ```html
-<div class="columns-3 gap-4">
-  <p class="bg-light">Column 1</p>
-  <p class="bg-light">Column 2</p>
-  <p class="bg-light">Column 3</p>
+<div class="columns-3 col-gap-4">
+  <p class="bg-light text-color-dark">Column 1</p>
+  <p class="bg-light text-color-dark">Column 2</p>
+  <p class="bg-light text-color-dark">Column 3</p>
 </div>
 ```
 
