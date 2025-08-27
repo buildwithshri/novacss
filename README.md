@@ -1,10 +1,3 @@
-Samajh gaya 👍 tum chahte ho ki main tumhe **pure `README.md` file ka ready code** bana ke de du jisse bas copy–paste karna hai.
-
-Yeh lo full file content:
-
----
-
-````markdown
 # 🌌 Nova CSS
 
 Nova CSS is a **lightweight, beginner-friendly CSS framework** inspired by Tailwind.  
