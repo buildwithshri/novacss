@@ -1,6 +1,6 @@
 /* ======================================================
-   NovaCSS v2.0 (Beginner-friendly Tailwind-like)
-   src/novacss.css
+   pixricss v2.0 (Beginner-friendly Tailwind-like)
+   src/pixricss.css
    ====================================================== */
 
 /* RESET */
@@ -204,4 +204,4 @@ body { font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neu
 .text-right { text-align: right; }
 .visually-hidden { position: absolute !important; height: 1px; width: 1px; overflow: hidden; clip: rect(1px,1px,1px,1px); white-space: nowrap; }
 
-/* End of novacss base */
+/* End of pixricss base */

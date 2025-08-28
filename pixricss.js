@@ -1,4 +1,4 @@
-// novacss.js - Arbitrary value parser
+// pixricss.js - Arbitrary value parser
 (function () {
   function applyArbitrary(el, cls) {
     // get base (remove responsive prefixes like sm:, md:, etc)

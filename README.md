@@ -1,6 +1,6 @@
-# 🌌 Nova CSS
+# 🌌 pixri CSS
 
-Nova CSS is a **lightweight, beginner-friendly CSS framework** inspired by Tailwind.  
+pixri CSS is a **lightweight, beginner-friendly CSS framework** inspired by Tailwind.  
 It provides utility-first classes for fast, responsive, and clean UI development — without the steep learning curve.
 
 ---
@@ -9,7 +9,7 @@ It provides utility-first classes for fast, responsive, and clean UI development
 
 ### Install via **npm**
 ```bash
-npm install nova-css
+npm install pixri-css
 ````
 
 Include in your project:
@@ -17,13 +17,13 @@ Include in your project:
 **React / Next.js / Vite etc:**
 
 ```js
-import "nova-css/dist/novacss.min.css";
+import "pixri-css/dist/pixricss.min.css";
 ```
 
 **Plain HTML:**
 
 ```html
-<link rel="stylesheet" href="./node_modules/nova-css/dist/novacss.min.css" />
+<link rel="stylesheet" href="./node_modules/pixri-css/dist/pixricss.min.css" />
 ```
 
 ---
@@ -34,10 +34,10 @@ Don’t want npm? Use the CDN link:
 
 ```html
 <!-- jsDelivr -->
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/nova-css/dist/novacss.min.css" />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/pixri-css/dist/pixricss.min.css" />
 
 <!-- OR unpkg -->
-<link rel="stylesheet" href="https://unpkg.com/nova-css/dist/novacss.min.css" />
+<link rel="stylesheet" href="https://unpkg.com/pixri-css/dist/pixricss.min.css" />
 ```
 
 ---
@@ -46,7 +46,7 @@ Don’t want npm? Use the CDN link:
 
 ```html
 <div class="p-4 bg-primary text-white rounded-lg shadow-lg">
-  🚀 Hello from Nova CSS!
+  🚀 Hello from pixri CSS!
 </div>
 ```
 
@@ -69,7 +69,7 @@ Don’t want npm? Use the CDN link:
 
 ```html
 <h1 class="text-4xl font-bold text-color-primary">Heading 1</h1>
-<p class="text-base text-color-secondary">This is a paragraph using Nova CSS.</p>
+<p class="text-base text-color-secondary">This is a paragraph using pixri CSS.</p>
 ```
 
 ### Buttons
