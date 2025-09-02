@@ -15,7 +15,20 @@
     "build:min": "postcss src/pixricss.css -o dist/pixricss.min.css",
     "prepare": "npm run build"
   },
-  "keywords": [],
+  "keywords": [
+  "css-framework",
+  "utility-first",
+  "tailwind-inspired",
+  "responsive-ui",
+  "lightweight-css",
+  "frontend",
+  "cdn-support",
+  "beginner-friendly",
+  "grid-system",
+  "typography",
+  "buttons",
+  "pixri-css"
+],
   "author": "SHRI",
   "license": "ISC",
   "type": "commonjs",
